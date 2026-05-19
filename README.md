@@ -63,17 +63,6 @@ Reviewable in 60 seconds →  clone, run, understand — no API keys to start
 ---
 
 <p align="center">
-  <a href="https://github.com/Hritikd">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Hritikd&show_icons=true&hide_border=true&theme=transparent&hide=stars&count_private=true" />
-  </a>
-  <a href="https://github.com/Hritikd">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hritikd&layout=compact&hide_border=true&theme=transparent&langs_count=8" />
-  </a>
-</p>
-
----
-
-<p align="center">
   <a href="mailto:hritikdatta2403@gmail.com"><img src="https://img.shields.io/badge/Email-hritikdatta2403%40gmail.com-111?style=flat-square&logo=gmail&logoColor=white" /></a>
   <!-- LINKS_PLACEHOLDER -->
 </p>
