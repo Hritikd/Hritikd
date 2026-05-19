@@ -63,8 +63,9 @@ Reviewable in 60 seconds →  clone, run, understand — no API keys to start
 ---
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/hritikdatta/"><img src="https://img.shields.io/badge/LinkedIn-hritikdatta-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/hritikd05"><img src="https://img.shields.io/badge/X-@hritikd05-111?style=flat-square&logo=x&logoColor=white" /></a>
   <a href="mailto:hritikdatta2403@gmail.com"><img src="https://img.shields.io/badge/Email-hritikdatta2403%40gmail.com-111?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <!-- LINKS_PLACEHOLDER -->
 </p>
 
 <p align="center"><sub>Open to conversations on AI agent engineering, evals, and LLM safety.</sub></p>
