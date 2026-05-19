@@ -32,14 +32,14 @@ That gap is what I build into.
 
 ### Featured work
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[gemma4-multi-agent](https://github.com/Hritikd/gemma4-multi-agent)** | Production-ready multi-agent system — a Supervisor routes work across 4 specialist agents with live reasoning traces and sandboxed tool execution. | Python · LangGraph · Gemini · Streamlit |
-| **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI |
-| **[agent-evals-lab](https://github.com/Hritikd/agent-evals-lab)** | Evaluation workbench for agent reliability — typed scoring engine, policy rules, regression detection, and a trace-inspection dashboard. | TypeScript · React · CI |
-| **[repo-pulse](https://github.com/Hritikd/repo-pulse)** | CLI that turns any Git repo into an engineering-health report — churn × complexity hotspot scoring you can paste into a review. | Python |
-| **[contract-watch](https://github.com/Hritikd/contract-watch)** | CLI that diffs two OpenAPI contracts and flags breaking API changes before they reach clients. CI-friendly. | TypeScript |
-| **[ai-code-reviewer](https://github.com/Hritikd/ai-code-reviewer)** | Structured AI code review from the terminal — severity-rated, line-specific feedback in pretty / JSON / Markdown. | Python |
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **[gemma4-multi-agent](https://github.com/Hritikd/gemma4-multi-agent)** | Production-ready multi-agent system — a Supervisor routes work across 4 specialist agents with live reasoning traces and sandboxed tool execution. | Python · LangGraph · Gemini · Streamlit | [Code](https://github.com/Hritikd/gemma4-multi-agent) |
+| **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/rag-safety-gateway/)** · [Code](https://github.com/Hritikd/rag-safety-gateway) |
+| **[agent-evals-lab](https://github.com/Hritikd/agent-evals-lab)** | Evaluation workbench for agent reliability — typed scoring engine, policy rules, regression detection, and a trace-inspection dashboard. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/agent-evals-lab/)** · [Code](https://github.com/Hritikd/agent-evals-lab) |
+| **[repo-pulse](https://github.com/Hritikd/repo-pulse)** | CLI that turns any Git repo into an engineering-health report — churn × complexity hotspot scoring you can paste into a review. | Python | [Code](https://github.com/Hritikd/repo-pulse) |
+| **[contract-watch](https://github.com/Hritikd/contract-watch)** | CLI that diffs two OpenAPI contracts and flags breaking API changes before they reach clients. CI-friendly. | TypeScript | [Code](https://github.com/Hritikd/contract-watch) |
+| **[ai-code-reviewer](https://github.com/Hritikd/ai-code-reviewer)** | Structured AI code review from the terminal — severity-rated, line-specific feedback in pretty / JSON / Markdown. | Python | [Code](https://github.com/Hritikd/ai-code-reviewer) |
 
 Every project ships with tests, CI, and documentation — and the AI tooling runs without API keys so anyone can review it in under a minute.
 
