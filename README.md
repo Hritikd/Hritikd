@@ -43,6 +43,12 @@ That gap is what I build into.
 
 Every project ships with tests, CI, and documentation — and the AI tooling runs without API keys so anyone can review it in under a minute.
 
+<p align="center">
+  <img src="docs/repo-pulse-demo.gif" alt="repo-pulse generating a real engineering-health report" width="640" />
+  <br/>
+  <sub><b>repo-pulse</b> in action — a real, unedited run, no keys or config.</sub>
+</p>
+
 ---
 
 ### How I build
