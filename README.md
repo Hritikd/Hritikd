@@ -34,14 +34,14 @@ That gap is what I build into.
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
-| **[gemma4-multi-agent](https://github.com/Hritikd/gemma4-multi-agent)** | Production-ready multi-agent system — a Supervisor routes work across 4 specialist agents with live reasoning traces and sandboxed tool execution. | Python · LangGraph · Gemini · Streamlit | [Code](https://github.com/Hritikd/gemma4-multi-agent) |
-| **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/rag-safety-gateway/)** · [Code](https://github.com/Hritikd/rag-safety-gateway) |
+| **[gemma4-multi-agent](https://github.com/Hritikd/gemma4-multi-agent)** | Multi-agent system — a Supervisor routes work across 4 specialist agents with live reasoning traces and sandboxed tool execution. | Python · LangGraph · Gemini · Streamlit | [Code](https://github.com/Hritikd/gemma4-multi-agent) |
 | **[agent-evals-lab](https://github.com/Hritikd/agent-evals-lab)** | Evaluation workbench for agent reliability — typed scoring engine, policy rules, regression detection, and a trace-inspection dashboard. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/agent-evals-lab/)** · [Code](https://github.com/Hritikd/agent-evals-lab) |
+| **[verdict](https://github.com/Hritikd/verdict)** | Adversarial LLM red-teaming platform — runs PAIR, Crescendo, and injection attacks against any model, then reports attack-success-rate metrics with per-category breakdowns and HTML reports. | Python · CI | [Code](https://github.com/Hritikd/verdict) |
+| **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/rag-safety-gateway/)** · [Code](https://github.com/Hritikd/rag-safety-gateway) |
+| **[hermes](https://github.com/Hritikd/hermes)** | Test-time compute scaling engine — gives any LLM o1-style reasoning search via Process Reward Models, MCTS, and beam search. | Python · CI | [Code](https://github.com/Hritikd/hermes) |
 | **[repo-pulse](https://github.com/Hritikd/repo-pulse)** | CLI that turns any Git repo into an engineering-health report — churn × complexity hotspot scoring you can paste into a review. | Python | [Code](https://github.com/Hritikd/repo-pulse) |
-| **[contract-watch](https://github.com/Hritikd/contract-watch)** | CLI that diffs two OpenAPI contracts and flags breaking API changes before they reach clients. CI-friendly. | TypeScript | [Code](https://github.com/Hritikd/contract-watch) |
-| **[ai-code-reviewer](https://github.com/Hritikd/ai-code-reviewer)** | Structured AI code review from the terminal — severity-rated, line-specific feedback in pretty / JSON / Markdown. | Python | [Code](https://github.com/Hritikd/ai-code-reviewer) |
 
-Every project ships with tests, CI, and documentation — and the AI tooling runs without API keys so anyone can review it in under a minute.
+Every featured project ships with tests, CI, and documentation — clone, run, and review the design in minutes.
 
 <p align="center">
   <img src="docs/repo-pulse-demo.gif" alt="repo-pulse generating a real engineering-health report" width="640" />
