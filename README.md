@@ -34,19 +34,19 @@ That gap is what I build into.
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
+| **[winnow](https://github.com/Hritikd/winnow)** | Budget-aware context compression for RAG and agents — BM25 relevance + MMR diversity packs the highest-signal context into a token budget. Deterministic, zero runtime deps, no API keys, with a reproducible benchmark. | Python · CI | [Code](https://github.com/Hritikd/winnow) |
 | **[gemma4-multi-agent](https://github.com/Hritikd/gemma4-multi-agent)** | Multi-agent system — a Supervisor routes work across 4 specialist agents with live reasoning traces and sandboxed tool execution. | Python · LangGraph · Gemini · Streamlit | [Code](https://github.com/Hritikd/gemma4-multi-agent) |
 | **[agent-evals-lab](https://github.com/Hritikd/agent-evals-lab)** | Evaluation workbench for agent reliability — typed scoring engine, policy rules, regression detection, and a trace-inspection dashboard. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/agent-evals-lab/)** · [Code](https://github.com/Hritikd/agent-evals-lab) |
 | **[verdict](https://github.com/Hritikd/verdict)** | Adversarial LLM red-teaming platform — runs PAIR, Crescendo, and injection attacks against any model, then reports attack-success-rate metrics with per-category breakdowns and HTML reports. | Python · CI | [Code](https://github.com/Hritikd/verdict) |
 | **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/rag-safety-gateway/)** · [Code](https://github.com/Hritikd/rag-safety-gateway) |
 | **[hermes](https://github.com/Hritikd/hermes)** | Test-time compute scaling engine — gives any LLM o1-style reasoning search via Process Reward Models, MCTS, and beam search. | Python · CI | [Code](https://github.com/Hritikd/hermes) |
-| **[repo-pulse](https://github.com/Hritikd/repo-pulse)** | CLI that turns any Git repo into an engineering-health report — churn × complexity hotspot scoring you can paste into a review. | Python | [Code](https://github.com/Hritikd/repo-pulse) |
 
 Every featured project ships with tests, CI, and documentation — clone, run, and review the design in minutes.
 
 <p align="center">
   <img src="docs/repo-pulse-demo.gif" alt="repo-pulse generating a real engineering-health report" width="640" />
   <br/>
-  <sub><b>repo-pulse</b> in action — a real, unedited run, no keys or config.</sub>
+  <sub><b>repo-pulse</b> — one of my CLIs, generating a real engineering-health report with no keys or config.</sub>
 </p>
 
 ---
