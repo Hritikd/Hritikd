@@ -34,6 +34,7 @@ That gap is what I build into.
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
+| **[mosaic](https://github.com/Hritikd/mosaic)** | A byte-pair-encoding tokenizer you can *see* — train a real BPE on your own text and watch any string break into a mosaic of tokens. Zero-dependency, lossless round-trips. | Python · CI | **[Live Studio](https://hritikd.github.io/mosaic/)** · [Code](https://github.com/Hritikd/mosaic) |
 | **[winnow](https://github.com/Hritikd/winnow)** | Budget-aware context compression for RAG and agents — BM25 relevance + MMR diversity packs the highest-signal context into a token budget. Deterministic, zero runtime deps, no API keys, with a reproducible benchmark. | Python · CI | **[Live Demo](https://hritikd.github.io/winnow/)** · [Code](https://github.com/Hritikd/winnow) |
 | **[warren](https://github.com/Hritikd/warren)** | From-scratch HNSW approximate-nearest-neighbor index — the graph algorithm behind vector databases. Recall@10 of 0.99+ while scanning ~5% of the database, measured against exact search. | Python · NumPy · CI | **[Live Demo](https://hritikd.github.io/warren/)** · [Code](https://github.com/Hritikd/warren) |
 | **[stencil](https://github.com/Hritikd/stencil)** | Constrained decoding — compiles a JSON Schema to a DFA and masks an LLM's tokens so invalid output is impossible. 100% valid by construction vs ~0% unconstrained. | Python · CI | **[Live Demo](https://hritikd.github.io/stencil/)** · [Code](https://github.com/Hritikd/stencil) |
