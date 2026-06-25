@@ -34,6 +34,7 @@ That gap is what I build into.
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
+| **[nabla](https://github.com/Hritikd/nabla)** | A reverse-mode autograd engine you can *watch think* — the algorithm behind PyTorch/JAX, from scratch, with an interactive visualizer that animates backprop through the computation graph. Gradient-checked to 1e-10. | Python · CI | **[Live Demo](https://hritikd.github.io/nabla/)** · [Code](https://github.com/Hritikd/nabla) |
 | **[mosaic](https://github.com/Hritikd/mosaic)** | A byte-pair-encoding tokenizer you can *see* — train a real BPE on your own text and watch any string break into a mosaic of tokens. Zero-dependency, lossless round-trips. | Python · CI | **[Live Studio](https://hritikd.github.io/mosaic/)** · [Code](https://github.com/Hritikd/mosaic) |
 | **[winnow](https://github.com/Hritikd/winnow)** | Budget-aware context compression for RAG and agents — BM25 relevance + MMR diversity packs the highest-signal context into a token budget. Deterministic, zero runtime deps, no API keys, with a reproducible benchmark. | Python · CI | **[Live Demo](https://hritikd.github.io/winnow/)** · [Code](https://github.com/Hritikd/winnow) |
 | **[warren](https://github.com/Hritikd/warren)** | From-scratch HNSW approximate-nearest-neighbor index — the graph algorithm behind vector databases. Recall@10 of 0.99+ while scanning ~5% of the database, measured against exact search. | Python · NumPy · CI | **[Live Demo](https://hritikd.github.io/warren/)** · [Code](https://github.com/Hritikd/warren) |
