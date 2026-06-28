@@ -45,6 +45,7 @@ That gap is what I build into.
 | **[verdict](https://github.com/Hritikd/verdict)** | Adversarial LLM red-teaming platform — runs PAIR, Crescendo, and injection attacks against any model, then reports attack-success-rate metrics with per-category breakdowns and HTML reports. | Python · CI | [Code](https://github.com/Hritikd/verdict) |
 | **[rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway)** | AI security gateway that scans RAG context for prompt injection, secrets, PII, and exfiltration risk, producing deterministic allow/redact/quarantine decisions. | TypeScript · React · CI | **[Live Demo](https://hritikd.github.io/rag-safety-gateway/)** · [Code](https://github.com/Hritikd/rag-safety-gateway) |
 | **[hermes](https://github.com/Hritikd/hermes)** | Test-time compute scaling engine — gives any LLM o1-style reasoning search via Process Reward Models, MCTS, and beam search. | Python · CI | [Code](https://github.com/Hritikd/hermes) |
+| **[tally](https://github.com/Hritikd/tally)** | Streaming statistics in bounded memory — Welford running stats, reservoir sampling, Count-Min sketch, Misra-Gries heavy hitters. Single-pass, verified against exact. | Python · CI | [Code](https://github.com/Hritikd/tally) |
 
 Every featured project ships with tests, CI, and documentation — clone, run, and review the design in minutes.
 
