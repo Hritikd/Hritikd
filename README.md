@@ -1,7 +1,7 @@
 <h1 align="center">Hritik Datta</h1>
 
 <p align="center">
-  <b>Product @ <a href="https://github.com/pre6ai">Pre6 AI</a></b> &nbsp;·&nbsp; I build the machinery behind AI products. &nbsp;·&nbsp; <a href="https://hritikd.github.io">hritikd.github.io</a>
+  <b>Product @ <a href="https://github.com/pre6ai">Pre6 AI</a></b> &nbsp;·&nbsp; I build the machinery behind AI products. &nbsp;·&nbsp; 
 </p>
 
 <p align="center">
