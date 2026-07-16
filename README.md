@@ -11,6 +11,20 @@
 
 ---
 
+### Product ownership, end to end
+
+I like the seam where product judgment meets systems engineering: define the user promise,
+design the operating model, ship the product, and build evidence that it works.
+
+| Product | What I owned | Evidence |
+|---|---|---|
+| **[Website in a WhatsApp](https://github.com/Hritikd/website-in-a-whatsapp)** · **[live product](https://website-in-a-whatsapp.hritikdatta2403.workers.dev)** | A phone-first AI agency for small businesses: brief → research → positioning → copy → privacy review → publication → text-based edits. I designed the product loop and built the React studio, seven-agent orchestration, Cloudflare/Convex architecture, quality gate, and payment lifecycle. | `SiteAgencyBench-15`: **15/15** fixed cases passing · **46 automated tests** · signed-webhook Test Mode checkout exercised end to end · unsupported claims blocked before publication |
+
+The current boundary is explicit: Test Mode payments and browser publication work; Live Mode payouts,
+a durable hosted Hermes endpoint, and the final WhatsApp transport are not presented as finished.
+
+---
+
 ### The LLM stack, from scratch
 
 Three repos that build a language model's core machinery from first principles — pure Python/NumPy,
