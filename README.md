@@ -1,25 +1,29 @@
 # Hritik Datta
 
-AI deployment at [Pre6.ai](https://pre6.ai). The work between a working model and a working company: what ships, for whom, in what order, and what has to be true before it does.
+Product and GTM at [Pre6.ai](https://pre6.ai). I work on enterprise AI: which customer workflow to start with, how to evaluate it, and whether the economics support deployment.
 
-GitHub is a public reading list — small studies of the stack I help decide whether to put in production.
+My background spans applied AI, manufacturing, and risk advisory. These projects make the product and technical decisions inspectable.
 
-### How the stack actually behaves
+## Selected work
 
-- [mosaic](https://github.com/Hritikd/mosaic) — tokenization, the first cost and quality decision · [demo](https://hritikd.github.io/mosaic/)
-- [nabla](https://github.com/Hritikd/nabla) — autograd, so “backprop” is a picture · [demo](https://hritikd.github.io/nabla/)
-- [loom](https://github.com/Hritikd/loom) — a small GPT, enough to talk about the model without waving at a paper · [demo](https://hritikd.github.io/loom/)
-- [warren](https://github.com/Hritikd/warren) — nearest-neighbor search, the retrieval step in every RAG deploy · [demo](https://hritikd.github.io/warren/)
+### [BolForm](https://github.com/Hritikd/Bolform) · [Try the demo](https://bol-form-voice-form-assistant.replit.app)
 
-### What has to be true before it ships
+Fill a form by speaking, review the answers, and download a PDF. Speaking language, screen language, and the form's language are separate choices.
 
-- [agent-evals-lab](https://github.com/Hritikd/agent-evals-lab) — reliability, tool-use, latency, and cost as release criteria
-- [stencil](https://github.com/Hritikd/stencil) — constrained decoding, when output must be valid structure · [demo](https://hritikd.github.io/stencil/)
-- [winnow](https://github.com/Hritikd/winnow) — what to keep inside a token budget · [demo](https://hritikd.github.io/winnow/)
-- [mend](https://github.com/Hritikd/mend) — repairing malformed JSON from model output · [playground](https://hritikd.github.io/mend/)
-- [semcache](https://github.com/Hritikd/semcache) — semantic cache, so you do not pay twice for the same question
-- [rag-safety-gateway](https://github.com/Hritikd/rag-safety-gateway) — injection, secrets, and PII as a deploy gate
+Short answers use direct validation; longer answers and corrections use a model. [Build history and tradeoffs](https://github.com/Hritikd/Bolform/blob/main/docs/BUILD_STORY.md), including the work done with Replit Agent.
 
-### Elsewhere
+### [Model Router](https://github.com/Hritikd/Sarvam_Model_Router)
 
-[Website](https://hritikd.github.io) · [LinkedIn](https://www.linkedin.com/in/hritikdatta/) · [X](https://x.com/hritikd05) · [Email](mailto:hritikdatta2403@gmail.com)
+Route a request by task complexity and language, then compare cost, latency, and rubric scores against fixed-model baselines.
+
+The failure policy preserves the selected capability tier when a provider fails. The repository includes a 30-prompt experiment, request-level results, and an offline check of the reported numbers. The monthly savings model is labelled separately as a scenario.
+
+### [Sarvam FieldKit](https://github.com/Hritikd/sarvam-fieldkit)
+
+Turn a speech-transcription incident into a customer update and an engineering report. The offline demo catches a missing order number that an aggregate error rate does not explain on its own.
+
+The diagnosis separates authentication, quota, and capacity failures from transcript-quality problems before deciding whether to retry or escalate.
+
+These are independent prototypes and experiments using synthetic examples. Each repository documents how to run it and where its evidence stops.
+
+[Website](https://hritikd.github.io) · [LinkedIn](https://www.linkedin.com/in/hritikdatta/) · [Email](mailto:hritikdatta2403@gmail.com)
